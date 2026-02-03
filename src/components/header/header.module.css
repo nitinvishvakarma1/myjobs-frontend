@@ -1,0 +1,12 @@
+.navLink.active {
+    color: blue;
+    /* Change to the color you prefer */
+    font-weight: bold;
+}
+
+.navbarStyle {
+    background-color: whitesmoke;
+}
+.navLink:hover{
+    color: blue;
+}

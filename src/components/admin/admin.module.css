@@ -1,0 +1,29 @@
+.pdfContainer {
+    width: 100%;
+    height: 900px;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminRecruiterListBanner{
+    background-image: url(../../assets/recruiterAddVacancy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin-top: 5rem;
+}
+
+
+.overadminRecruiterListBanner{
+    height: 200px;
+    background-color: rgba(34, 36, 44, 0.646);
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+}

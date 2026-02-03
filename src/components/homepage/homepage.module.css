@@ -1,0 +1,102 @@
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  z-index: 99999;
+}
+
+#spinner.show {
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
+}
+
+.servicesItem {
+  padding: 40px 20px;
+  text-align: justify;
+  transition: all 0.3s ease-in-out 0s;
+
+}
+
+.servicesItem:hover {
+  background: #d7e0e0;
+}
+
+.servicesItem .icon img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #212121;
+  border-radius: 30px;
+  padding: 5px;
+  background-color: dodgerblue;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.servicesItem {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servicesItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.409);
+  cursor: pointer;
+}
+
+.stepBackground {
+  background-image: url(../../assets/step-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.categoryHeader {
+  /* background: linear-gradient(to left, #8bbcff, #cacacae4); */
+  border-style: 5py solid blue;
+  border-bottom: blue;
+}
+
+.overStepBackground {
+  padding: 2rem 0;
+  height: 455px;
+  background-color: rgba(34, 34, 34, 0.409);
+
+}
+
+.stepCard {
+  background-color: rgba(34, 34, 34, 0.116);
+  border-radius: 10px;
+  padding: 1.5rem;
+  color: white
+}
+
+.aboutContainer{
+  height: 500px;
+  /* background-color: red; */
+}
+
+@media (max-width: 767px) {
+  .overStepBackground {
+    padding: 1rem;
+    height: auto;
+  }
+
+  .stepCard {
+    margin-bottom: 1.5rem;
+  }
+  .aboutContainer{
+    height: 300px;
+    overflow-y: scroll;
+    /* background-color: red; */
+  }
+}
+
+
+.footer {
+  background-color: #030303d4;
+  text-align: justify;
+  color: white;
+}

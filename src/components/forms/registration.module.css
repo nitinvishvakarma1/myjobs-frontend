@@ -1,0 +1,63 @@
+.formContainer {
+    max-height: 80vh;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.formContainer::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+
+.candidateRegistration {
+    background: linear-gradient(to right, #b3b2b2, #141414);
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.loginForm {
+    background: linear-gradient(to left, #2e2e2e, #949494);
+    margin-top: 90px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.loginBtn {
+    background: linear-gradient(to left, #09203F, #274962);
+    color:white;
+}
+
+.recruiterRegistration {
+    background: linear-gradient(to right, #b3b2b2, #141414);
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .loginForm {
+        background-color: black;
+        margin-top: 95px;
+        color: white;
+    }
+
+    .candidateRegistration {
+        background-color: black;
+        margin-bottom: 50px;
+        margin-top: 80px;
+    }
+
+    .recruiterRegistration {
+        background-color: black;
+        margin-top: 85px;
+        margin-bottom: 50px;
+    }
+
+    .candidateRegistration,
+    .loginForm,
+    .recruiterRegistration {
+        margin-bottom: 30px;
+    }
+}
